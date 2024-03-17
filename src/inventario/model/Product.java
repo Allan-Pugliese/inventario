@@ -49,5 +49,4 @@ public class Product {
 	public void setRegisterDate(Date registerDate) {
 		this.registerDate = registerDate;
 	}
-
 }

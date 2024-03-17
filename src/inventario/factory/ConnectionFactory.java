@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import exception.ExceptionProgram;
 
 public class ConnectionFactory {
-	
+
 	// Nome do usuário
 		private static final String USERNAME = "root";
 
@@ -37,7 +37,7 @@ public class ConnectionFactory {
 				}
 			} catch (ExceptionProgram e) {
 				System.out.println(e.getMessage()); {
-					
+
 				}
 			} finally {
 				try {
